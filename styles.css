@@ -1,0 +1,99 @@
+/* Adventure Time API CSS File */
+:root {
+  --blue: #46a9b4;
+  --yellow: #f6b543;
+  --pink: #ed577a;
+  --purple: #a166aa;
+  --skyBlue: #90d0ec;
+  --fontHeaders: "Overlock", cursive;
+  --fontLabels: "PT Sans Narrow", sans-serif;
+  --fontDefault: "PT Sans", sans-serif;
+}
+
+body {
+  align-content: center;
+
+  background-image: url("./assets/3217146.jpg");
+  background-color: var(--blue);
+  background-size: 100%;
+  font-family: var(--fontDefault);
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontHeaders);
+}
+
+h1 {
+  color: white;
+  font-size: 66px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* CHARACTER CARDS */
+.card {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+span {
+  color: var(--purple);
+  font-family: var(--fontLabels);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.card-body {
+  max-width: 300px;
+}
+
+h5 {
+  color: var(--blue);
+  font-size: 26px;
+}
+
+.btn-warning {
+  background-color: var(--pink);
+  color: white;
+}
+
+/* MODALS */
+.modal-content {
+  background-color: var(--skyBlue);
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-title {
+  color: var(--purple);
+}
+
+.btn-secondary {
+  background-color: var(--yellow);
+  border: var(--yellow);
+  color: black;
+}
+
+blockquote {
+  color: black;
+  font-size: 22px;
+  font-style: italic;
+}

@@ -76,7 +76,8 @@ function characterData(character) {
     let image7 = document.getElementById('characterImage7').src = `https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/e/e0/Marceline_Stock_Night.png/revision/latest/scale-to-width-down/95?cb=20190807133150`;
     let modalTitle7 = document.getElementById('characterAltName7').innerText = character[4].displayName;
     let modalBody7 = document.getElementById('characterQuotes7').innerText = character[4].quotes[0];
-        /* Character pictures links: 
+
+    /* Extra Character pictures links:
 
 tarttoter : "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/7d/Toter.png/revision/latest?cb=20120713195935",
 

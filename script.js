@@ -19,7 +19,7 @@ function characterData(character) {
         console.log(character[0].sex);
         let image0 = document.getElementById('characterImage0').src = `https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/7e/Finn_with_bionic_arm-0.png/revision/latest?cb=20190807133126`;
         let modalTitle0 = document.getElementById('characterAltName0').innerText = character[0].displayName;
-        let modalBody0 = document.getElementById('characterQuotes0').innerText = `<blockquote>` + character[0].quotes[0] + `</blockquote>s`;        
+        let modalBody0 = document.getElementById('characterQuotes0').innerText = character[0].quotes[0];        
 
     //JAKE
         let characterName1 = document.getElementById('characterName1').innerText = character[1].fullName;
